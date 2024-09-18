@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Moedas</title>
+</head>
+<body>
+    <script>
+        var valorReais = parseFloat(prompt("Digite o valor em reais:"));
+        var cotacaoDolar = 5.25; // Exemplo de cotação
+        var cotacaoEuro = 5.70; // Exemplo de cotação
+
+        var valorDolares = valorReais / cotacaoDolar;
+        var valorEuros = valorReais / cotacaoEuro;
+
+        alert("Valor em Dólares: " + valorDolares.toFixed(2) + "\nValor em Euros: " + valorEuros.toFixed(2));
+    </script>
+</body>
+</html>
